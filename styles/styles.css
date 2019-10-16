@@ -19,6 +19,8 @@ body {
 .bg-red {
     background-color: red;
 }
+
+
 /* End Debug */
 
 /* Start Container */
@@ -1023,3 +1025,43 @@ body {font-family: Verdana,sans-serif;}
 } */
 
 /* end gallery artikel */
+
+  /* start background sekunder */
+  .biru{
+    width: 50%;
+    background-color: #3498db;
+  }
+   
+  .hijau{
+    width: 50%;
+    background-color: #2ecc71;
+  }
+   
+  .merah{
+    width: 50%;
+    background-color: #ec9cb7;
+  }
+   
+  .kuningmuda{
+    width: 50%;
+    background-color: #f39c12;
+  }
+  .bg-green{
+    width: 50%;
+    margin-left: 25px;;
+    background-color: rgb(228, 245, 136);
+  }
+
+  .heading-garis {
+    background-color: #020202;
+    border: 1px solid #d2d1da;
+    border-radius:1px 1px 0 0;
+    margin: 0;
+    padding: 2px 10px;
+    text-transform: uppercase;
+    width:93.5%;
+    margin-left: 25px;
+   
+  }
+/* end background sekunder */
+
