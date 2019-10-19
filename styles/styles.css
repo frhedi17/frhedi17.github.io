@@ -1083,7 +1083,7 @@ body {font-family: Verdana,sans-serif;}
 .form-style-3 label > span{
 	float: left;
 	width: 100px;
-	color: #F072A9;
+	color: rgb(2, 2, 2);
 	font-weight: bold;
 	font-size: 13px;
 	text-shadow: 1px 1px 1px #fff;
@@ -1101,7 +1101,7 @@ body {font-family: Verdana,sans-serif;}
 	-webkit-box-shadow: inset 0px 0px 15px #FFE5E5;
 }
 .form-style-3 fieldset legend{
-	color: #FFA0C9;
+	color: rgb(8, 8, 8);
 	border-top: 1px solid #FFD2D2;
 	border-left: 1px solid #FFD2D2;
 	border-right: 1px solid #FFD2D2;
@@ -1135,7 +1135,7 @@ body {font-family: Verdana,sans-serif;}
 	-moz-border-radius: 3px;
 	border: 1px solid #FFC2DC;
 	outline: none;
-	color: #F072A9;
+	color: rgb(12, 11, 12);
 	padding: 5px 8px 5px 8px;
 	box-shadow: inset 1px 1px 4px #FFD5E7;
 	-moz-box-shadow: inset 1px 1px 4px #FFD5E7;
