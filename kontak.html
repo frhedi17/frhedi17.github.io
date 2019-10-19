@@ -107,11 +107,11 @@
       <!-- End Alamat -->  
      
       <!-- Start Form --> 
-      <div class="container bg-green"> 
+      <div class="container"> 
       <h2>Form kontak Partner Digital</h2>
       <p>Anda bisa pesan dan konfirmasi pembayaran melalui form dibawah ini :</p>
 
-      <form action="https://formspree.io/frhedi17@gmail.com" method="POST">
+      <!-- <form action="https://formspree.io/frhedi17@gmail.com" method="POST">
            <label for="nama">Nama Lengkap :</label>
            <br>
            <input type="text" placeholder="Nama Lengkap" size="50" name="nama" id="nama">
@@ -132,9 +132,32 @@
           <br>
           <textarea name="pesan" id="pesan" cols="48" rows="20" placeholder="silahkan tulis pesan disini"></textarea>
           <br><br>
-          <input type="submit" name="kirim">
-      </form>
-      <!--
+          <input type="submit" name="kirim" >
+      </form> -->
+
+
+      <div class="form-style-3 bg-green ">
+          <form action="https://formspree.io/frhedi17@gmail.com" method="POST">
+          <fieldset><legend>Personal</legend>
+            <label for="field1"><span>Nama <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" placeholder="Nama Lengkap" /></label>
+            <label for="field2"><span>Email <span class="required">*</span></span><input type="email" class="input-field" name="field2" value="" placeholder="example@gmail.com"/></label>
+            <label for="field3"><span>Telp atau HP<span class="required">*</span></span><input type="text" class="input-field" name="field3" value="" placeholder="Telp atau HP"/></label>
+            <label for="field4"><span>Subject</span><select name="field4" class="select-field">
+            <option >Pilih Subject...</option>
+            <option value="Appointment">Pesan Barang</option>
+            <option value="Interview">Konfimasi Pembayaran</option>
+            <option value="Regarding a post">Pertayaan</option>
+          </select></label>
+          </fieldset>
+          <fieldset><legend>Message</legend>
+            <label for="field6"><span>Message <span class="required">*</span></span><textarea name="field6" class="textarea-field" placeholder="silahkan tulis pesan disini"></textarea></label>
+            <label><span>&nbsp;</span><input type="submit" name="kirim"/></label>
+          </fieldset>
+          </form>
+     </div>
+
+
+     <!--
       <form method="POST" action="https://formspree.io/frhedi17@gmail.com">
           <input type="email" name="email" placeholder="Your email">
           <textarea name="message" placeholder="Test Message"></textarea>
@@ -233,7 +256,10 @@
           <div class="container center"> 
           <h4>Google Map Lokasi</h4>  
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7215441649387!2d106.83130201401549!3d-6.16803009553443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5cc30747451%3A0xdcf0bfa038a22d37!2sSMA%20Santa%20Ursula!5e0!3m2!1sid!2sid!4v1569642227387!5m2!1sid!2sid" width="800" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-          </div>     
+          </div>   
+          
+          <!DOCTYPE html>
+
           <!-- Start copyright --> 
           <div class="container "> 
                <p>copyright &COPY; 2019</p>
