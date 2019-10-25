@@ -134,14 +134,14 @@ h6{
 /* Start main */
 .main-home-one {
   float:left;
-  width:46.5%;
+  width:47.5%;
   
 }
 .main-home-two {
   float:right;
   /* float:left; */
-  width:46.5%;
-  margin-right: 60px;
+  width:47.5%;
+  margin-right: 3%;
   
 }
 .main-home-one .box-isi,
@@ -306,7 +306,7 @@ text-align: justify;
 
 /* Start Tabel index */
 .marginleft{
-margin-left: 50px; 
+margin-left: 3%; 
 }
 
 .snip1579 {
